@@ -3,8 +3,8 @@
 ## git
 Shows help.
 
-## git command -h
-Shows help from specified command.
+## git <_git command_> -h
+Shows help from specified command. ex: git commit -h.
 
 ## git init
 It's used to start a git repository in your local machine.
