@@ -35,3 +35,18 @@ Same of git commit, but commit unstaged files too. It's like you use "git add ."
 
 ## git commit -am "Something"
 It's a combination of both above, It's the seem you run "git add .", after "git commit -m "Something"".
+
+## git log
+Shows all commits, with some details.
+
+## git log --oneline
+Shows all commits, with only commit hash and message.
+
+## git log -<_number_>
+Shows last _N_ commits, details as git log.
+
+## git log --graph --decorate
+Print commits log with a better UI, you can see it better when you're working more than one branch.
+
+### Observation about _git log_
+You can combine option to improve visibility.
