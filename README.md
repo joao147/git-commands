@@ -36,7 +36,7 @@ Same of git commit, but commit unstaged files too. It's like you use "git add ."
 ## git commit -am "Something"
 It's a combination of both above, It's the seem you run "git add .", after "git commit -m "Something"".
 
-## git commit --amend
+## git commit -amend
 It's used to change your last commit, you can change message or some modification in files that you added.
 
 ## git log
