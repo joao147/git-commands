@@ -10,7 +10,10 @@ Shows help from specified command. ex: git commit -h.
 It's used to start a git in repository that was run.
 
 ## git init DirectoryName
-It's used to start a git repository in a new directory. It's like you use "mkdir DirectoryName", after "cd DirectoryName" and finaly "git init".
+It's used to start a git repository in a directory. Can be a new directory or already exist.
+
+## git init <path>
+It's used to start a git repository in a directory in last item of path.
 
 ## git add FileName
 This command is used to add an specific file to your stage.
