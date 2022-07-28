@@ -7,17 +7,17 @@ Shows help.
 ### git <_git command_> -h
 Shows help from specified command. ex: git commit -h.
 
-## init
+## Init
 ### git init
 It's used to start a git in repository that was run.
 
 ### git init DirectoryName
 It's used to start a git repository in a directory. Can be a new directory or already exist.
 
-### git init <path>
+### git init < path >
 It's used to start a git repository in a directory in last item of path.
 
-## add
+## Add
 ### git add FileName
 This command is used to add an specific file to your stage.
 
@@ -27,11 +27,11 @@ Adds all modified files to stage.
 ### git add -u|--update
 Adds all modified files to stage, unless untracked files.
 
-## status
+## Status
 ### git status
 Shows all modifications in your git directory.
 
-## commit
+## Commit
 ### git commit
 Use to track/commit modifies that was added/staged by add command.
 
@@ -47,7 +47,7 @@ It's a combination of both above, It's the seem you run "git add .", after "git 
 ### git commit --amend
 It's used to change your last commit, you can change message or some modification in files that you added.
 
-## logs
+## Logs
 ### git log
 Shows all commits, with some details.
 
