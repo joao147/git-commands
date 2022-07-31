@@ -39,7 +39,7 @@ Print all difference on files, it's compare current state with last commit.
 Print all difference in files that compare current state with hash commit.
 
 ### git diff < hash_commit > < other_hash_commit >
-show you all difference in files comparing both hashs commit.
+show you all difference in files comparing both commits hash.
 
 ## Commit
 ### git commit
