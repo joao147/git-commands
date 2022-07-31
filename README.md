@@ -31,6 +31,16 @@ Adds all modified files to stage, unless untracked files.
 ### git status
 Shows all modifications in your git directory.
 
+## Diff
+### git diff
+Print all difference on files, it's compare current state with last commit.
+
+### git diff < hash_commit >
+Print all difference in files that compare current state with hash commit.
+
+### git diff < hash_commit > < other_hash_commit >
+show you all difference in files comparing both hashs commit.
+
 ## Commit
 ### git commit
 Use to track/commit modifies that was added/staged by add command.
