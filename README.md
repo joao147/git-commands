@@ -31,6 +31,13 @@ Adds all modified files to stage, unless untracked files.
 ### git status
 Shows all modifications in your git directory.
 
+## Restore
+### git restore FileName
+Restore the file as it was.
+
+### git restore FileName --staged
+Restore the file that was stagged as it was.
+
 ## Diff
 ### git diff
 Print all difference on files, it's compare current state with last commit.
