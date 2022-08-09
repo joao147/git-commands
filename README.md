@@ -42,10 +42,10 @@ Restore the file that was stagged as it was.
 ### git diff
 Print all difference on files, it's compare current state with last commit.
 
-### git diff < hash_commit >
+### git diff <_hash commit_>
 Print all difference in files that compare current state with hash commit.
 
-### git diff < hash_commit > < other_hash_commit >
+### git diff <_hash commit_> <_other hash commit_>
 show you all difference in files comparing both commits hash.
 
 ## Commit
@@ -79,3 +79,16 @@ Print commits log with a better UI, you can see it better when you're working mo
 
 #### Observation about _git log_
 You can combine option to improve visibility.
+
+## Tag
+### git tag
+Shows you all tags that have been created.
+
+### git tag TagName
+It's create a tag in your current HEAD.
+
+### git tag -a TagName
+Same as last command, but you add a comment/description to new tag.
+
+### git tag TagName <_hash commit_>
+It's create a tag in commit which is represent by _hash commit_. You can use "-a" to add comment/description too.
